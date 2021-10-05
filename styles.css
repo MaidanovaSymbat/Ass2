@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+h3 {
+  color: white;
+}
+a {
+  color: white;
+}
+
+#header {
+  background-color: black;
+}
+
+#info {
+  height: 600px;
+  background-image: url("./me.jpg");
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+.darri {
+  text-align: right;
+  margin: 14%;
+}
+
+#info .container div {
+  height: 600px;
+}
+
+#info .container div img {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+}
+
+#portfolio {
+  height: 600px;
+  background-image: url(./lily.jpg);
+  background-size: cover;
+  vertical-align: middle;
+}
+#my-works{
+  justify-content: center;
+  align-items: center;
+  color:black;
+}
+.images{
+  display: flex;
+  justify-content: space-between;
+}
+#contacts {
+  background-image: url(./lily.jpg);
+}
+
+#portfolio h1{
+  text-align: center;
+  padding-top: 5%;
+}
+
+#my-works h1 {
+  text-align: center;
+}
+
+#contacts h1{
+  text-align: center;
+}
